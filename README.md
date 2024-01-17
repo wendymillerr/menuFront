@@ -6,9 +6,7 @@ Este é o frontend da aplicação Cardápio Digital, responsável por exibir e i
 
 Certifique-se de ter o Node.js instalado em sua máquina. 
 
-1. Clone este repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio-frontend.git
+1. Clone este repositório
 
 # Instale as dependências
 
