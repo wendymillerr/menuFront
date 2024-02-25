@@ -12,7 +12,10 @@ Certifique-se de ter o Node.js instalado em sua máquina.
 
 npm install
 
+# Integração com Backend
+Para realizar a integração com o Backend, você pode clonar o projeto e rodar localmente.
 
+👉 Link do repositório (https://github.com/wendymillerr/menuBack)
 
 # Imagem da aplicação
 
