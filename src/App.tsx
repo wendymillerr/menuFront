@@ -15,16 +15,17 @@ function App() {
     setIsModalOpen((prev: unknown) => !prev)
   }
 
+  console.log(data);
 
   return (
     <div className='container'>
       <h1>Cardápio</h1>
       <div className="card-grid">
-        {data?.map((foodData: { price: number; title: string; image: string; }) => 
+        {data?.map((foodData: { price: number; title: string; img: string; }) => 
         <Card 
         price={foodData.price} 
         title={foodData.title} 
-        image={foodData.image} 
+        image={foodData.img} 
         />
         )}
       </div>
