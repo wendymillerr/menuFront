@@ -23,14 +23,14 @@ export  function CreateModal(){
 
     const [title, setTitle] = useState("");
     const [price, setPrice] = useState(0);
-    const [image, setImage] = useState("");
+    const [img, setImage] = useState("");
     const  {mutate}= useFoodDataMutate();
 
     const submit = ( ) => {
         const foodData: foodData = {
             title,
             price,
-            image
+            img
         }
 
         mutate(foodData)
@@ -43,7 +43,7 @@ export  function CreateModal(){
                 <form className="input-container">
                     <Input label="title" value={title} updateValue={setTitle}/>
                     <Input label="price" value={price} updateValue={setPrice}/>
-                    <Input label="image" value={image} updateValue={setImage}/> 
+                    <Input label="img" value={img} updateValue={setImage}/> 
                 </form>
                 <button onClick={submit} className="button-secundary">postar</button>
             </div>
